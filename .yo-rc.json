@@ -32,6 +32,7 @@
     "jhipsterVersion": "4.9.0",
     "packageFolder": "com/br/juridicoapp/application",
     "jwtSecretKey": "796a14a9bf87c6261a57c9242dcbeee09c35b185",
-    "jhiPrefix": "jhi"
+    "jhiPrefix": "jhi",
+    "herokuAppName": "juridicoapp"
   }
 }
