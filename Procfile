@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/juridicoapp-0.0.1-SNAPSHOT.war
+web: java $JAVA_OPTS -Xmx256m -jar target/*.war --spring.profiles.active=prod,heroku --server.port=$PORT
